@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components/macro';
 import { Button } from './Button';
 import { IoMdArrowRoundForward } from 'react-icons/io';
 import { IoArrowForward, IoArrowBack } from 'react-icons/io5';
-import { motion, AnimatePresence } from 'framer-motion';
+
 
 const HeroSection = styled.section`
   height: 100vh;
@@ -57,7 +57,7 @@ const HeroSlider = styled.div`
   }
 `;
 
-const HeroImage = styled(motion.img)`
+const HeroImage = styled.img`
   position: absolute;
   top: 0;
   left: 0;
@@ -174,16 +174,12 @@ const Hero = ({ slides }) => {
     return null;
   }
 
-  const fadeAnimation = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { duration: 0.8 } },
-    exit: { opacity: 0 }
-  };
+
 
   return (
     <HeroSection>
       <HeroWrapper>
-        <AnimatePresence>
+        <>
           {slides.map((slide, index) => {
             return (
               <HeroSlide key={index}>
@@ -195,10 +191,10 @@ const Hero = ({ slides }) => {
                       initial='hidden'
                       animate='visible'
                       exit='exit'
-                      variants={fadeAnimation}
+                      
                     />
                     <HeroContent>
-                      <h1 data-aos='fade-down' data-aos-duration='600'>
+                    <h1 data-aos='fade-down' data-aos-duration='600'>
                         {slide.title}
                       </h1>
                       <p
@@ -227,7 +223,7 @@ const Hero = ({ slides }) => {
               </HeroSlide>
             );
           })}
-        </AnimatePresence>
+        </>
         <SliderButtons>
           <PrevArrow onClick={prevSlide} />
           <NextArrow onClick={nextSlide} />
