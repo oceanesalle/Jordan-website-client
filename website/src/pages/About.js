@@ -4,7 +4,7 @@ import { InfoData } from '../data/InfoData';
 
 
 const About = () => {
-  return <InfoSection slides={InfoData} />;
+  return <InfoSection {...InfoData} />;
 };
 
 export default About;

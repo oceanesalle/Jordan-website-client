@@ -9,7 +9,7 @@ export const SliderData = [
   {
     title: 'Besoin d\u0027une clôture pour votre jardin ?',
     price: 'Nous sommes là !',
-    path: '/homes',
+    path: '/about',
     label: 'Nos services',
     image: ImageOne, ImageTwo, 
     alt: 'House'
@@ -17,7 +17,7 @@ export const SliderData = [
   {
     title: 'Besoin d\u0027une clôture pour votre jardin ?',
     price: 'Nous sommes là !',
-    path: '/homes',
+    path: '/about',
     label: 'Nos services',
     image: ImageTwo,
     alt: 'House'
@@ -25,7 +25,7 @@ export const SliderData = [
   {
     title: 'Besoin d\u0027une clôture pour votre jardin ?',
     price: 'Nous sommes là !',
-    path: '/homes',
+    path: '/about',
     label: 'Nos services',
     image: ImageThree,
     alt: 'House'
@@ -33,7 +33,7 @@ export const SliderData = [
   {
     title: 'Besoin d\u0027une clôture pour votre jardin ?',
     price: 'Nous sommes là !',
-    path: '/homes',
+    path: '/about',
     label: 'Nos services',
     image: ImageFour,
     alt: 'House'
