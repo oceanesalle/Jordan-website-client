@@ -1,6 +1,6 @@
-import ImageOne from '../images/house1.jpg'; 
+import ImageOne from '../images/portail1.jpeg'; 
 import ImageTwo from '../images/house.webp'; 
-import ImageThree from '../images/house2.jpg'; 
+import ImageThree from '../images/3.jpg'; 
 import ImageFour from '../images/house3.jpg'; 
 
 

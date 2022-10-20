@@ -1,9 +1,8 @@
 import React from 'react';
 import styled from 'styled-components/macro';
 import { Link } from 'react-router-dom';
-import { IoMdArrowRoundForward } from 'react-icons/io';
-import HomeOne from '../images/real1.jpeg';
-import HomeTwo from '../images/realisation.jpeg';
+import HomeOne from '../images/2.jpg';
+import HomeTwo from '../images/4.jpg';
 
 const Section = styled.section`
   width: 100%;
@@ -74,9 +73,7 @@ const InfoLink = styled(Link)`
   }
 `;
 
-const Arrow = styled(IoMdArrowRoundForward)`
-  margin-left: 10px;
-`;
+
 
 const Listings = () => {
   return (
@@ -100,10 +97,8 @@ const Listings = () => {
             data-aos-anchor-placement='center bottom'
           >
             <Image src={HomeOne} alt='home' />
-            <h2>Sed fruatur sane hoc solacio atque hanc insignem</h2>
+            <h2>Réalisation d'une cloture rigide demi chaperon ton pierre. </h2>
             <InfoLink to='/homes'>
-              <p>Voir les details</p>
-              <Arrow />
             </InfoLink>
           </InfoWrap>
           <InfoWrap
@@ -122,10 +117,9 @@ const Listings = () => {
                 }
               `}
             />
-            <h2>Sed fruatur sane hoc solacio atque hanc insignem</h2>
+            <h2>Installation d'un portail modèle Rhône et d'une motorisation nice. </h2>
             <InfoLink to='/homes'>
-              <p>Voir les details</p>
-              <Arrow />
+            
             </InfoLink>
           </InfoWrap>
         </InfoRow>

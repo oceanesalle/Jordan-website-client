@@ -1,5 +1,5 @@
-import ImageOne from '../images/cloture.jpeg';
-import ImageTwo from '../images/portail.jpeg';
+import ImageOne from '../images/1.jpg';
+import ImageTwo from '../images/portail2.jpeg';
 
 export const InfoData = {
   heading: 'Notre valeur de travail réside dans la réactivité et le travail minutieux au meilleur prix en Indre-et-Loire',
