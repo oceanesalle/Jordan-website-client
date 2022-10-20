@@ -6,6 +6,10 @@ import Dropdown from './components/Dropdown';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import Home from './pages';
+import About from './pages/About';
+import Clotures from './pages/Clotures';
+import Realisations from './pages/Realisations';
+import Portail from './pages/Portail';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -21,6 +25,10 @@ function App() {
       <Dropdown isOpen={isOpen} toggle={toggle}/>
         <Routes>
         <Route path='/' element={<Home/>} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/clotures' element={<Clotures/>} />
+        <Route path='/realisations' element={<Realisations/>} />
+        <Route path='/portail' element={<Portail/>} />
         <Route path='/contact' element={<Contact/>} />
         </Routes>
       <Footer/> 

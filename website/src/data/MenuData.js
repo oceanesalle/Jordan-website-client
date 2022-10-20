@@ -1,6 +1,6 @@
 export const menuData = [
   { title: 'A propos', link: '/about' },
   { title: 'Clôtures', link: '/clotures' },
-  { title: 'Portails', link: '/portails' }, 
-  { title: 'Automatismes', link: '/automatismes' }
+  { title: 'Portails et Automatismes', link: '/portail' }, 
+  { title: 'Nos réalisations', link: '/realisations' }
 ];

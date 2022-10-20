@@ -1,8 +1,10 @@
 import React from 'react';
-import Features from '../components/Features';
+import InfoSection from '../components/InfoSection';
+import { InfoData } from '../data/InfoData';
+
 
 const About = () => {
-  return <Features />;
+  return <InfoSection slides={InfoData} />;
 };
 
 export default About;

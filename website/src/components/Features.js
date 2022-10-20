@@ -87,7 +87,7 @@ const Features = () => {
               data-aos-once='true'
               data-aos-anchor-placement='center bottom'
             >
-              <h1>Beau exterieur</h1>
+              <h1>Clôtures</h1>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Deserunt maxime commodi rem dignissimos, laborum eum beatae
@@ -97,7 +97,7 @@ const Features = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
                 voluptatem.
               </p>
-              <Button to='/homes'>Voir plus</Button>
+              <Button to='/contact'>Obtenir un devis gratuit</Button>
             </Content>
           </ColumnLeft>
           <ColumnRight>

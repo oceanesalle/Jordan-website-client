@@ -18,12 +18,12 @@ export const InfoData = {
 };
 
 export const InfoDataTwo = {
-  heading: 'lorem8',
+  heading: 'Portails et Automatismes',
   paragraphOne:
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita modi dolo.',
   paragraphTwo:
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos, consequun pariatur aliquid!',
-  buttonLabel: 'Voir autres',
+  buttonLabel: 'Obtenir un devis gratuit',
   image: ImageTwo,
   reverse: true,
   delay: 300
