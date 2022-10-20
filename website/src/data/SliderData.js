@@ -7,34 +7,34 @@ import ImageFour from '../images/house3.jpg';
 
 export const SliderData = [
   {
-    title: 'Lorem10',
-    price: 'dontknow',
+    title: 'Besoin d\u0027une clôture pour votre jardin ?',
+    price: 'Nous sommes là !',
     path: '/homes',
-    label: 'View Home',
-    image: ImageOne,
+    label: 'Nos services',
+    image: ImageOne, ImageTwo, 
     alt: 'House'
   },
   {
-    title: 'Something',
-    price: 'dontknow',
+    title: 'Besoin d\u0027une clôture pour votre jardin ?',
+    price: 'Nous sommes là !',
     path: '/homes',
-    label: 'View Home',
+    label: 'Nos services',
     image: ImageTwo,
     alt: 'House'
   },
   {
-    title: 'SOMETHING',
-    price: 'dontknow',
+    title: 'Besoin d\u0027une clôture pour votre jardin ?',
+    price: 'Nous sommes là !',
     path: '/homes',
-    label: 'View Home',
+    label: 'Nos services',
     image: ImageThree,
     alt: 'House'
   },
   {
-    title: 'SOMEWHERE',
-    price: 'dontknow',
+    title: 'Besoin d\u0027une clôture pour votre jardin ?',
+    price: 'Nous sommes là !',
     path: '/homes',
-    label: 'View Home',
+    label: 'Nos services',
     image: ImageFour,
     alt: 'House'
   }
