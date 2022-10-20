@@ -1,14 +1,11 @@
 import React, {useState} from 'react';
 import GlobalStyle from './globalStyles';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero'; 
-import { SliderData } from './data/SliderData';
+import { Routes ,Route } from 'react-router-dom';
 import Dropdown from './components/Dropdown';
-import InfoSection from './components/InfoSection';
-import { InfoData, InfoDataTwo } from './data/InfoData';
-import Listings from './components/Listings';
-import Features from './components/Features';
+import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import Home from './pages';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -22,14 +19,11 @@ function App() {
       <GlobalStyle />
       <Navbar toggle={toggle}/>
       <Dropdown isOpen={isOpen} toggle={toggle}/>
-      <Hero slides={SliderData} /> 
-      <InfoSection {...InfoData}/>
-      <Listings />
-      <Features />
-      <InfoSection {...InfoDataTwo}/>
-      <Footer/>
-  
-      
+        <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/contact' element={<Contact/>} />
+        </Routes>
+      <Footer/> 
     </>
   );
 }
