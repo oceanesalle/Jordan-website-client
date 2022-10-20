@@ -1,12 +1,10 @@
 import React from 'react';
 import styled, { css } from 'styled-components/macro';
 import { Link } from 'react-router-dom';
-import { Button } from './Button';
-import { IoMdArrowRoundForward } from 'react-icons/io';
+
 import {
   FaInstagram,
   FaFacebookF,
-  FaLinkedinIn,
 } from 'react-icons/fa';
 
 const Section = styled.section`
@@ -91,10 +89,6 @@ const Facebook = styled(FaFacebookF)`
   ${Icons}
 `;
 
-const LinkedIn = styled(FaLinkedinIn)`
-  ${Icons}
-`;
-
 
 const Contact = styled.div`
   width: 50%;
@@ -115,50 +109,41 @@ const Footer = () => {
         <FooterTop>
           <Quote>
             <h3>
-              Confiez-nous <br /> votre extérieur
+              Confiez-nous <br /> votre terrain
             </h3>
           </Quote>
           <FooterInfo>
-            <h4>Contactez-nous</h4>
-            <Link to='/homes'>Lorem</Link>
-            <Link to='/homes'>Lorem</Link>
-            <Link to='/homes'>Lorem</Link>
+            <h4>Nous</h4>
+            <Link to='/homes'>Téléphone</Link>
+            <Link to='/homes'>Adresse mail</Link>
+            <Link to='/homes'>Région</Link>
           </FooterInfo>
           <FooterInfo>
-            <h4>Lieu</h4>
-            <Link to='/homes'>Lorem</Link>
-            <Link to='/homes'>Lorem</Link>
-            <Link to='/homes'>Lorem</Link>
+            <h4>Contacter</h4>
+            <Link to='/homes'>07.64.16.91.08</Link>
+            <Link to='/homes'>uvaldo.cloture@gmail.com</Link>
+            <Link to='/homes'>Indre-et-Loire</Link>
           </FooterInfo>
         </FooterTop>
         <FooterBottom>
           <SocialIcons>
             <a
-              href='//www.google.com'
+              href='/https://instagram.com/cloture__uvaldo_37?igshid=YmMyMTA2M2Y='
               rel='noopener noreferrer'
               target='_blank'
             >
               <Instagram />
             </a>
             <a
-              href='//www.google.com'
+              href='/https://www.facebook.com/jordan.uvaldo'
               rel='noopener noreferrer'
               target='_blank'
             >
               <Facebook />
             </a>
-            <a
-              href='//www.google.com'
-              rel='noopener noreferrer'
-              target='_blank'
-            >
-              <LinkedIn />
-            </a>
           </SocialIcons>
           <Contact>
-            <Button to='/homes'>
-              Discutons <IoMdArrowRoundForward />
-            </Button>
+        
           </Contact>
         </FooterBottom>
       </Container>

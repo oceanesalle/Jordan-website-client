@@ -89,14 +89,9 @@ const Features = () => {
             >
               <h1>Clôtures</h1>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Deserunt maxime commodi rem dignissimos, laborum eum beatae
-                harum consectetur possimus architecto!
+              Nous prenons en charge l'installation de clôtures en grillage soudé, en trellis, sur muret, et avec ou sans dalle de soubassement. 
               </p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                voluptatem.
-              </p>
+              
               <Button to='/contact'>Obtenir un devis gratuit</Button>
             </Content>
           </ColumnLeft>

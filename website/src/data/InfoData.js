@@ -2,9 +2,9 @@ import ImageOne from '../images/cloture.jpeg';
 import ImageTwo from '../images/portail.jpeg';
 
 export const InfoData = {
-  heading: 'Réactivité et travail soigné au meilleur prix',
+  heading: 'Notre valeur de travail réside dans la réactivité et le travail minutieux au meilleur prix en Indre-et-Loire',
   paragraphOne:
-    '\u2023 Clôtures grillage soudé, en trellis, sur muret, avec ou sans dalle de soubassement',
+    '\u2023 Clôtures',
   paragraphTwo:
     '\u2023 Portails et portillons',
   paragraphThree:
@@ -20,9 +20,9 @@ export const InfoData = {
 export const InfoDataTwo = {
   heading: 'Portails et Automatismes',
   paragraphOne:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita modi dolo.',
+    'Nous installons également des portails et portillions, aussi bien automatiques que non.',
   paragraphTwo:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos, consequun pariatur aliquid!',
+    'L\u0027automatisation est une excellente façon de rendre les choses plus simples. Vous conduirez le portail à distance depuis votre maison ou votre voiture. ',
   buttonLabel: 'Obtenir un devis gratuit',
   image: ImageTwo,
   reverse: true,
