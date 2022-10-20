@@ -2,12 +2,16 @@ import ImageOne from '../images/cloture.jpeg';
 import ImageTwo from '../images/portail.jpeg';
 
 export const InfoData = {
-  heading: 'Lorem6',
+  heading: 'Réactivité et travail soigné au meilleur prix',
   paragraphOne:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores expedita modi dolorum saepe culpa minima necessitatibus voluptatem dolor non. Reiciendis.',
+    '\u2023 Clôtures grillage soudé, en trellis, sur muret, avec ou sans dalle de soubassement',
   paragraphTwo:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos, consequuntur eaque reprehenderit pariatur aliquid!',
-  buttonLabel: 'Voir autres',
+    '\u2023 Portails et portillons',
+  paragraphThree:
+    '\u2023 Automatismes',
+    h3: 
+    'Pas de TVA et devis gratuit',
+  buttonLabel: 'Nous contacter',
   image: ImageOne,
   reverse: false,
   delay: 100
