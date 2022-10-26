@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/oceanesalle.github.io/static/css/main.fc0706bd.css",
+    "main.js": "/oceanesalle.github.io/static/js/main.a21a0cb4.js",
+    "static/media/house3.jpg": "/oceanesalle.github.io/static/media/house3.82c20661066156b29dfe.jpg",
+    "static/media/5.jpg": "/oceanesalle.github.io/static/media/5.ea6669277712411ffb5a.jpg",
+    "static/media/3.jpg": "/oceanesalle.github.io/static/media/3.d544428110299f0a7da9.jpg",
+    "static/media/2.jpg": "/oceanesalle.github.io/static/media/2.5a4daf07f5edaa507a97.jpg",
+    "static/media/portail2.jpeg": "/oceanesalle.github.io/static/media/portail2.d3b64b44a3000f201f68.jpeg",
+    "static/media/4.jpg": "/oceanesalle.github.io/static/media/4.4913e7392d564449ec2f.jpg",
+    "static/media/cloture.jpeg": "/oceanesalle.github.io/static/media/cloture.443935eb5756e4dd2290.jpeg",
+    "static/media/portail1.jpeg": "/oceanesalle.github.io/static/media/portail1.8d7c7ef28b409d9a10f0.jpeg",
+    "static/media/house.webp": "/oceanesalle.github.io/static/media/house.3a0ecbe1fa4f24f07e18.webp",
+    "index.html": "/oceanesalle.github.io/index.html",
+    "static/media/bars.svg": "/oceanesalle.github.io/static/media/bars.3fb19b63796ae711108f54ceb8084047.svg",
+    "main.fc0706bd.css.map": "/oceanesalle.github.io/static/css/main.fc0706bd.css.map",
+    "main.a21a0cb4.js.map": "/oceanesalle.github.io/static/js/main.a21a0cb4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc0706bd.css",
+    "static/js/main.a21a0cb4.js"
+  ]
+}
