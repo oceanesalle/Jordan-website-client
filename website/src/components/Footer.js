@@ -57,6 +57,7 @@ const FooterInfo = styled.div`
   }
 `;
 
+
 const FooterBottom = styled.div`
   display: flex;
   padding: 2rem 0rem;
@@ -79,7 +80,7 @@ const SocialIcons = styled.div`
 const Icons = css`
   font-size: clamp(1rem, 6vw, 2rem);
   margin-right: 1.5rem;
-  color: #cd853f;
+  color: #eb5e28;
 `;
 
 const Instagram = styled(FaInstagram)`
@@ -89,7 +90,6 @@ const Instagram = styled(FaInstagram)`
 const Facebook = styled(FaFacebookF)`
   ${Icons}
 `;
-
 
 const Contact = styled.div`
   width: 50%;
@@ -102,6 +102,23 @@ const Contact = styled.div`
     justify-content: flex-start;
   }
 `;
+
+const FooterContainer = styled.footer`
+background: #000d1a; 
+`; 
+
+const SocialLogo = styled(Link)`
+color: #fff; 
+justify-self: start;
+cursor: pointer;
+text-decoration: none;
+font-size: 1.5rem; 
+display: flex;
+align-items: center;
+margin-bottom: 16px;
+font-size: 90%;
+
+`; 
 
 const Footer = () => {
   return (
@@ -147,6 +164,9 @@ const Footer = () => {
         
           </Contact>
         </FooterBottom>
+        <FooterContainer>
+            <SocialLogo to="/">Ce site a été réalisé par Océane Sallé, développeuse web front-end : www.odevelopment.com.</SocialLogo>
+    </FooterContainer>
       </Container>
     </Section>
   );
