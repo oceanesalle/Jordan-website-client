@@ -165,7 +165,7 @@ const Footer = () => {
           </Contact>
         </FooterBottom>
         <FooterContainer>
-            <SocialLogo to="/">Ce site a été réalisé par Océane Sallé, développeuse web front-end : www.odevelopment.com.</SocialLogo>
+            <SocialLogo to="/">Ce site a été réalisé par Océane Sallé, développeuse web front-end : www.webdeveloppeuse.com.</SocialLogo>
     </FooterContainer>
       </Container>
     </Section>
