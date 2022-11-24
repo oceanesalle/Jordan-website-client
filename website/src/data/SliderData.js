@@ -1,7 +1,7 @@
 import ImageOne from '../images/portail1.jpeg'; 
-import ImageTwo from '../images/house.webp'; 
-import ImageThree from '../images/3.jpg'; 
-import ImageFour from '../images/house3.jpg'; 
+import ImageTwo from '../images/portailautomatique.webp'; 
+import ImageThree from '../images/portailenbois.jpg'; 
+import ImageFour from '../images/grillage.jpg'; 
 
 
 
