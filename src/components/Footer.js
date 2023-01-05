@@ -167,7 +167,7 @@ const Footer = () => {
           </Contact>
         </FooterBottom>
         <FooterContainer>
-            <SocialLogo to="/">Ce site a été réalisé par Océane Sallé :<a href='www.webdeveloppeuse.com'>webdeveloppeuse.com</a></SocialLogo>
+            <SocialLogo to="/">Ce site a été réalisé par Océane Sallé, développeuse web front-end : www.webdeveloppeuse.com.</SocialLogo>
     </FooterContainer>
       </Container>
     </Section>
