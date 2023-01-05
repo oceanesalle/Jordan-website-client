@@ -99,6 +99,7 @@ const Features = () => {
           <ColumnRight>
             <Image
               src={ImageOne}
+              alt='cloture'
               data-aos='fade-left'
               data-aos-duration='1200'
               data-aos-once='true'

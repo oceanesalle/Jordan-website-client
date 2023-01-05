@@ -149,7 +149,7 @@ const Footer = () => {
               href='/https://instagram.com/cloture__uvaldo_37?igshid=YmMyMTA2M2Y='
               rel='noopener noreferrer'
               target='_blank'
-              aria-label="Suivez-nous sur instagram"
+              aria-label='Suivez-nous sur instagram'
             >
               <Instagram />
             </a>
@@ -157,6 +157,7 @@ const Footer = () => {
               href='/https://www.facebook.com/jordan.uvaldo'
               rel='noopener noreferrer'
               target='_blank'
+              aria-label='Rejoignez-nous sur facebook'
             >
               <Facebook />
             </a>

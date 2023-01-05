@@ -9,7 +9,7 @@ export const InfoData = {
     '\u2023 Portails et portillons',
   paragraphThree:
     '\u2023 Automatismes',
-    h3: 
+    h2: 
     'Pas de TVA et devis gratuit',
   buttonLabel: 'Nous contacter',
   image: ImageOne,

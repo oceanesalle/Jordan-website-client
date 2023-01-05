@@ -37,7 +37,7 @@ const ColumnLeft = styled.div`
     margin-bottom: 1rem;
   }
 
-  h3 {
+  h2 {
     margin-bottom: 1rem;
   }
 `;
@@ -70,7 +70,7 @@ const InfoSection = ({
   paragraphOne,
   paragraphTwo,
   paragraphThree,
-  h3, 
+  h2, 
   buttonLabel,
   reverse,
   image,
@@ -91,7 +91,7 @@ const InfoSection = ({
           <p>{paragraphOne}</p>
           <p>{paragraphTwo}</p>
           <p>{paragraphThree}</p>
-          <h3>{h3}</h3>
+          <h2>{h2}</h2>
           <Button to='/homes' primary='true'>
             {buttonLabel}
           </Button>
