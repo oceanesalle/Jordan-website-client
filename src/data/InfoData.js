@@ -1,5 +1,5 @@
 import ImageOne from '../images/clôture.webp';
-import ImageTwo from '../images/portail2.webp';
+import ImageTwo from '../images/portail3.webp';
 
 export const InfoData = {
   heading: 'Notre valeur de travail réside dans la réactivité et le travail minutieux au meilleur prix en Indre-et-Loire',
