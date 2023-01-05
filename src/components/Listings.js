@@ -109,7 +109,7 @@ const Listings = () => {
           >
             <Image
               src={HomeTwo}
-              alt='home'
+              alt='portail'
               css={`
                 margin-top: 120px;
                 @media screen and (max-width: 768px) {
