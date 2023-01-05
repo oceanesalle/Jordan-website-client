@@ -146,7 +146,7 @@ const Footer = () => {
         <FooterBottom>
           <SocialIcons>
             <a
-              href='/https://instagram.com/cloture__uvaldo_37?igshid=YmMyMTA2M2Y='
+              href='/https://www.instagram.com/uvaldocloture/'
               rel='noopener noreferrer'
               target='_blank'
               aria-label='Suivez-nous sur instagram'
