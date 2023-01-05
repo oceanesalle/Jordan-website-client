@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components/macro';
 import { Link, useLocation } from 'react-router-dom';
 import { menuData } from '../data/MenuData';
 import { Button } from './Button';
-import Bars from '../images/menuicon.jpg';
+import Bars from '../images/menuicon.webp';
 
 const Nav = styled.nav`
   height: 60px;

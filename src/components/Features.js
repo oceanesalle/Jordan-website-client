@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Button } from './Button';
-import ImageOne from '../images/cloture.jpeg';
+import ImageOne from '../images/cloture.webp';
 
 const Section = styled.section`
   background: #000d1a;

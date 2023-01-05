@@ -1,5 +1,5 @@
-import ImageOne from '../images/clôture.jpg';
-import ImageTwo from '../images/portail2.jpeg';
+import ImageOne from '../images/clôture.webp';
+import ImageTwo from '../images/portail2.webp';
 
 export const InfoData = {
   heading: 'Notre valeur de travail réside dans la réactivité et le travail minutieux au meilleur prix en Indre-et-Loire',
@@ -13,6 +13,7 @@ export const InfoData = {
     'Pas de TVA et devis gratuit',
   buttonLabel: 'Nous contacter',
   image: ImageOne,
+  alt: 'cloture', 
   reverse: false,
   delay: 100
 };
@@ -25,6 +26,7 @@ export const InfoDataTwo = {
     'L\u0027automatisation est une excellente façon de rendre les choses plus simples. Vous conduirez le portail à distance depuis votre maison ou votre voiture. ',
   buttonLabel: 'Obtenir un devis gratuit',
   image: ImageTwo,
+  alt: 'cloture',
   reverse: true,
   delay: 300
 };

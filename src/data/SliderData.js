@@ -1,7 +1,7 @@
-import ImageOne from '../images/portail1.jpeg'; 
+import ImageOne from '../images/portail1.webp'; 
 import ImageTwo from '../images/portailautomatique.webp'; 
-import ImageThree from '../images/portailenbois.jpg'; 
-import ImageFour from '../images/grillage.jpg'; 
+import ImageThree from '../images/portailenbois.webp'; 
+import ImageFour from '../images/grillage.webp'; 
 
 
 
@@ -12,7 +12,7 @@ export const SliderData = [
     path: '/about',
     label: 'Nos services',
     image: ImageOne, ImageTwo, 
-    alt: 'House'
+    alt: 'portail'
   },
   {
     title: 'Besoin d\u0027une clôture pour votre jardin ?',
@@ -20,7 +20,7 @@ export const SliderData = [
     path: '/about',
     label: 'Nos services',
     image: ImageTwo,
-    alt: 'House'
+    alt: 'portail'
   },
   {
     title: 'Besoin d\u0027une clôture pour votre jardin ?',
@@ -28,7 +28,7 @@ export const SliderData = [
     path: '/about',
     label: 'Nos services',
     image: ImageThree,
-    alt: 'House'
+    alt: 'portail'
   },
   {
     title: 'Besoin d\u0027une clôture pour votre jardin ?',
@@ -36,6 +36,6 @@ export const SliderData = [
     path: '/about',
     label: 'Nos services',
     image: ImageFour,
-    alt: 'House'
+    alt: 'portail'
   }
 ];
