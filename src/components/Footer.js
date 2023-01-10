@@ -107,18 +107,6 @@ const FooterContainer = styled.footer`
 background: #000d1a; 
 `; 
 
-const SocialLogo = styled(Link)`
-color: #fff; 
-justify-self: start;
-cursor: pointer;
-text-decoration: none;
-font-size: 1.5rem; 
-display: flex;
-align-items: center;
-margin-bottom: 16px;
-font-size: 90%;
-
-`; 
 
 const Footer = () => {
   return (
@@ -167,7 +155,11 @@ const Footer = () => {
           </Contact>
         </FooterBottom>
         <FooterContainer>
-            <SocialLogo to="/">Ce site a été réalisé par Océane Sallé, développeuse web front-end : www.webdeveloppeuse.com.</SocialLogo>
+       <span>
+            Ce site à été réalisé par 
+            <a onClick="window.open(this.href); return false;" href="https://webdeveloppeuse.com" 
+            title="Développeuse Web Freelance"> webdeveloppeuse</a>
+            </span>
     </FooterContainer>
       </Container>
     </Section>
