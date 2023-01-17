@@ -134,7 +134,7 @@ const Footer = () => {
         <FooterBottom>
           <SocialIcons>
             <a
-              href='/https://www.instagram.com/uvaldocloture/'
+              href='https://www.instagram.com/uvaldocloture/?hl=fr'
               rel='noopener noreferrer'
               target='_blank'
               aria-label='Suivez-nous sur instagram'
@@ -142,7 +142,7 @@ const Footer = () => {
               <Instagram />
             </a>
             <a
-              href='/https://www.facebook.com/jordan.uvaldo'
+              href='https://www.facebook.com/Cl%C3%B4tures-Portails-uvaldo-jordan-104546015865320'
               rel='noopener noreferrer'
               target='_blank'
               aria-label='Rejoignez-nous sur facebook'
